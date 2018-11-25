@@ -46,15 +46,15 @@ class writeCallback: public BLECharacteristicCallbacks {
         M5.Lcd.clear(WHITE);
         M5.Lcd.setTextColor(BLACK);
         M5.Lcd.setTextSize(4);
-        M5.Lcd.setCursor(135, 100);
-        M5.Lcd.println("ON");
+        M5.Lcd.setCursor(100, 100);
+        M5.Lcd.println("(^_^)");
       }
       else {
         M5.Lcd.clear(BLACK);
         M5.Lcd.setTextColor(WHITE);
         M5.Lcd.setTextSize(4);
-        M5.Lcd.setCursor(130, 100);
-        M5.Lcd.println("OFF");
+        M5.Lcd.setCursor(100, 100);
+        M5.Lcd.println("(-_-)");
       }
     }
   }
